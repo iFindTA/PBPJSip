@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PBPJSip"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "pjsip 2.5.5.2 version for iOS development."
   s.description  = "pjsip 2.5.5.2 module for FLK.Inc iOS Developers, such as voip call/video call up etc."
 
@@ -122,11 +122,11 @@ Pod::Spec.new do |s|
                           'PBPJSip/Pod/Classes/libs/third_party/*.a',
                           'PBPJSip/Pod/Classes/libs/openssl/*.a']
 
-  header_search_paths   =['"$(PODS_ROOT)/Headers/Public/FLKPJSip/pjlib"',
-                          '"$(PODS_ROOT)/Headers/Public/FLKPJSip/pjlib-util"',
-                          '"$(PODS_ROOT)/Headers/Public/FLKPJSip/pjmedia"',
-                          '"$(PODS_ROOT)/Headers/Public/FLKPJSip/pjnath"',
-                          '"$(PODS_ROOT)/Headers/Public/FLKPJSip/pjsip"']
+  header_search_paths   =['"$(PODS_ROOT)/Headers/Public/PBPJSip/pjlib"',
+                          '"$(PODS_ROOT)/Headers/Public/PBPJSip/pjlib-util"',
+                          '"$(PODS_ROOT)/Headers/Public/PBPJSip/pjmedia"',
+                          '"$(PODS_ROOT)/Headers/Public/PBPJSip/pjnath"',
+                          '"$(PODS_ROOT)/Headers/Public/PBPJSip/pjsip"']
   
 
   s.xcconfig            = {
